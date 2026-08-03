@@ -16,6 +16,7 @@
         "psr/container": "^1.0 || ^2.0"
     },
     "require-dev": {
+        "php-cs-fixer/shim": "^3.95",
         "phpunit/phpunit": "^7.5|^8.0|^9.0"
     },
     "autoload": {
@@ -27,6 +28,8 @@
         "sort-packages": true
     },
     "scripts": {
+        "cs": "php-cs-fixer check",
+        "fix": "php-cs-fixer fix",
         "test": "phpunit"
     }
 }

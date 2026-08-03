@@ -4,3 +4,4 @@ vendor/
 .buildpath
 composer.lock
 .idea/
+.php-cs-fixer.cache
