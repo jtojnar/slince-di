@@ -1,6 +1,6 @@
 build:
-  nodes:
-    analysis:
-      tests:
-        override:
-          - php-scrutinizer-run
+    nodes:
+        analysis:
+            tests:
+                override:
+                    - php-scrutinizer-run
