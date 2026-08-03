@@ -22,5 +22,8 @@
         "psr-4": {
             "Slince\\Di\\": ""
         }
+    },
+    "config": {
+        "sort-packages": true
     }
 }
