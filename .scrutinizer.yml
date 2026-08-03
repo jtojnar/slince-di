@@ -7,29 +7,6 @@ tools:
     external_code_coverage:
         timeout: 600
 
-    php_cs_fixer:
-        enabled: true
-        config:
-            level: all
-        filter:
-            excluded_paths:
-                - "Tests/*"
-                - "vendor/*"
-
-    php_mess_detector:
-        enabled: true
-        filter:
-            excluded_paths:
-                - "Tests/*"
-                - "vendor/*"
-
-    php_pdepend:
-        enabled: true
-        filter:
-            excluded_paths:
-                - "Tests/*"
-                - "vendor/*"
-
     php_analyzer:
         enabled: true
         filter:
