@@ -7,10 +7,6 @@ tools:
     external_code_coverage:
         timeout: 600
 
-    php_sim: true
-
-    php_changetracking: true
-
     php_cs_fixer:
         enabled: true
         config:
