@@ -204,7 +204,7 @@ class ContainerTest extends TestCase
     public function testGetWithMissingOptionalClassDependency()
     {
         $container = new Container();
-        $container->register('director', function ($name, $age, ActorInterface $actor = null) {
+        $container->register('director', function ($name, $age, ?ActorInterface $actor = null) {
             $this->assertNull($actor);
 
             return new Director($name, $age);
